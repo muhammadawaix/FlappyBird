@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: bdd2b3d11e5c29845ab56801fc1b11aa
+guid: f32afad4918f51e4fa994ed2cb9d6e83
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2910296673025610260
-    second: Third_0
+      213: -2322180950842035098
+    second: Coins_0
+  - first:
+      213: -4893972260818282012
+    second: Coins_1
+  - first:
+      213: -6323751108524238166
+    second: Coins_2
+  - first:
+      213: 2722280177590742205
+    second: Coins_3
+  - first:
+      213: 6582046967323461550
+    second: Coins_4
+  - first:
+      213: 1942777921290549423
+    second: Coins_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +154,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Third_0
+      name: Coins_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 209
-        height: 267
+        width: 87
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +169,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cedae45689c8c97d0800000000000000
-      internalID: -2910296673025610260
+      spriteID: 664b1e88ab4f5cfd0800000000000000
+      internalID: -2322180950842035098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins_1
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 76
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e99f4d782e151cb0800000000000000
+      internalID: -4893972260818282012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins_2
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 0
+        width: 64
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa1e681fd58d38a0800000000000000
+      internalID: -6323751108524238166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins_3
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 0
+        width: 53
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc2264f56b77c520800000000000000
+      internalID: 2722280177590742205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins_4
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 0
+        width: 35
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea78046f7d0285b50800000000000000
+      internalID: 6582046967323461550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins_5
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 0
+        width: 19
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa8bef3e93226fa10800000000000000
+      internalID: 1942777921290549423
       vertices: []
       indices: 
       edges: []
@@ -173,7 +298,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Coins_0: -2322180950842035098
+      Coins_1: -4893972260818282012
+      Coins_2: -6323751108524238166
+      Coins_3: 2722280177590742205
+      Coins_4: 6582046967323461550
+      Coins_5: 1942777921290549423
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

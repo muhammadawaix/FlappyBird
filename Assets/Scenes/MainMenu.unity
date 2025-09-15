@@ -1190,6 +1190,7 @@ MonoBehaviour:
   mainMenuPanel: {fileID: 15750480}
   optionsPanel: {fileID: 1604642963}
   loadingPanel: {fileID: 588393716}
+  totalCoins: {fileID: 1813476858}
 --- !u!4 &588393715
 Transform:
   m_ObjectHideFlags: 0
@@ -1858,7 +1859,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2910296673025610260, guid: bdd2b3d11e5c29845ab56801fc1b11aa, type: 3}
+  m_Sprite: {fileID: -2322180950842035098, guid: f32afad4918f51e4fa994ed2cb9d6e83, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2678,7 +2679,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 34
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

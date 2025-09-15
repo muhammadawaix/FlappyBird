@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class MainMenu : MonoBehaviour
@@ -5,11 +6,13 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private GameObject mainMenuPanel;
     [SerializeField] private GameObject optionsPanel;
     [SerializeField] LoadingPanel loadingPanel;
+    [SerializeField] TextMeshProUGUI totalCoins;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         mainMenuPanel.SetActive(true);
         optionsPanel.SetActive(false);
+        totalCoins.text = PlayerPrefs.GetInt("TotalCoin", 0).ToString();
     }
 
     // Update is called once per frame

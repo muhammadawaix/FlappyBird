@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private GamePlay gamePlay;
     private float jumpForce = 5.0f;
     private Rigidbody2D rb;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -31,7 +30,7 @@ public class Player : MonoBehaviour
         if (collision.tag == "Coin")
         {
             Destroy(collision.gameObject);
-            gamePlay.IncrementCoin();
+            GamePlay.instance.IncrementCoin();
         }
     }
     
@@ -40,7 +39,7 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Obstacles")
         {
-            gamePlay.GameOver();
+            GamePlay.instance.GameOver();
         }
     }
 }
